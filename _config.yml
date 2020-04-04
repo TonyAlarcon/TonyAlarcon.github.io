@@ -1,5 +1,10 @@
 
 #Stores configuation data
-name: Pedro Alarcon's Webpage
-markdown: kramdown
+name: Pedro Alarcon's Webpage #name of webpade
+markdown: kramdown #version of markdown
 permalink: /blog/:year/:month/:day/:title
+defaults: 
+  - scope:
+    path: "assets/img"
+    values:
+      image: true
