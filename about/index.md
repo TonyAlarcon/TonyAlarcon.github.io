@@ -3,8 +3,8 @@ layout: default
 title: About Me
 ---
 
-
-![Me](https://github.com/TonyAlarcon/TonyAlarcon.github.io/raw/master/assets/img/Me.jpeg)
+<img src="https://github.com/TonyAlarcon/TonyAlarcon.github.io/raw/master/assets/img/Me.jpeg"
+height="100">
 
 
 		<div class="about">
