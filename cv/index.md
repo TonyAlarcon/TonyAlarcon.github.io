@@ -3,6 +3,8 @@ layout: default
 title: Resume
 ---
 
+![resume](Resume_Alarcon_Pedro.pdf){:height="36px" width="36px"}
+
 	<div class="cv">
 		<a href="#" class="download" title="Download CV as PDF">Download CV</a>			
 					<h1>Hank Quinlan</h1>
