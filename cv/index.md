@@ -1,6 +1,6 @@
 ---
 layout: default
-title: CV of Your Name
+title: Resume
 ---
 
 	<div class="cv">
