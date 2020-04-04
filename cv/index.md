@@ -3,6 +3,8 @@ layout: default
 title: CV of Your Name
 ---
 
+![](/images/Resume_Alarcon_Pedro.pdf)
+
 	<div class="cv">
 		<a href="#" class="download" title="Download CV as PDF">Download CV</a>			
 					<h1>Hank Quinlan</h1>
@@ -20,3 +22,7 @@ title: CV of Your Name
 
 
 	</div>
+	
+	
+
+
