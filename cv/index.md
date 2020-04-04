@@ -20,4 +20,7 @@ title: CV of Your Name
 
 
 	</div>
-![](images/Resume_Alarcon_Pedro.pdf)
+	
+	
+![Jetpacktocat](https://github.com/TonyAlarcon/TonyAlarcon.github.io/blob/master/images/Resume_Alarcon_Pedro.pdf)
+
