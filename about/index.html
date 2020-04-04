@@ -9,80 +9,74 @@ title: About Me
 <html> 
   
 <head> 
-    <title> 
-        About
-    </title> 
-      
+    <title>  About </title> 
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <style> 
+    * {
+       box-sizing: border-box;
+}
+
         body { 
-            margin: 20px; 
-            text-align:center; 
+             margin: 0;
+            font-family: Arial, Helvetica, sans-serif;
         } 
-        h1 { 
-            color: green; 
-        } 
-          
-        /* This div design part is 
-            used as an Image */ 
-        .round { 
-            width: 200px; 
-            height: 200px; 
-            border-radius: 50%; 
-            text-align: center; 
-            font-size: 30px; 
-            float: left; 
-            font-weight: bold; 
-              
-            /* Change the shape according 
-                to the image */ 
-            shape-outside: circle(); 
-            background-color: Green; 
-            color: white; 
-        } 
-          
-        article{ 
-            padding-top: 75px; 
-            display: inline-block; 
-        } 
-          
-        p { 
-            text-align: justify; 
-            font-size: 22px; 
-        } 
-    </style> 
-</head> 
-  
-<body> 
-    <h1>GeeksforGeeks</h1> 
-      
-    <b> 
-        A Computer Science Portal for Geeks 
-    </b> 
-  
-    <div class="round"> 
+        /* Style the side navigation */
+.sidenav {
+  height: 100%;
+  width: 200px;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  overflow-x: hidden;
+} 
+
+/* Side navigation links */
+.sidenav a {
+  color: white;
+  padding: 16px;
+  text-decoration: none;
+  display: block;
+}
+/* Style the content */
+.content {
+  margin-left: 200px;
+  padding-left: 20px;
+}
+</style>
+</head>
+<body>
+
+    <div class="sidenav">
+
 
 <figure>
 <img src="https://github.com/TonyAlarcon/TonyAlarcon.github.io/raw/master/assets/img/Me.jpeg"
 height="300" ALIGN=”left” HSPACE=”50” VSPACE=”50”>
 <figcaption>
-				<ul class="contacts">
-				<li><a href="#">@TwitterHandle</a></li>
-				<li><a href="#">Your Departmental Webpage</a></li>
-				<li><a href="#">Another site you want to link to</a></li>
-				</ul>
+  <a href="#">Link</a>
+  <a href="#">Link</a>
+  <a href="#">Link</a>
 </figcaption>
 </figure>
 
-    </div> 
-      
-    <p> 
-	My name is Pedro Alarcon but I go by Tony, which is short for my middle name. 
-	I graduated with an Astrophysics degree from UCLA in 2018, and subsequently enhanced my education through post-bacc 
-	programs and community college coursework. I posses a vigorous mathematical foundation with exposure to concepts in 
-	Machine Learning, Data Structures, Operating Systems and Electromechanics. As further elaborated in my resume, I’ve 
-	engaged in undergraduate research, managed team projects and conducted numerous experiments that’s given me a good 
-	grounding of theory and application within a computer science contex
-    </p> 
-</body> 
-  
+</div>
+
+
+<div class="content">
+  <h2>CSS Template</h2>
+  <p>   My name is Pedro Alarcon but I go by Tony, which is short for my middle name. 
+    I graduated with an Astrophysics degree from UCLA in 2018, and subsequently enhanced my education through post-bacc 
+    programs and community college coursework. I posses a vigorous mathematical foundation with exposure to concepts in 
+    Machine Learning, Data Structures, Operating Systems and Electromechanics. As further elaborated in my resume, I’ve 
+    engaged in undergraduate research, managed team projects and conducted numerous experiments that’s given me a good 
+    grounding of theory and application within a computer science contex</p>
+</div>
+
+</body>
 </html>
+
+
+
+
