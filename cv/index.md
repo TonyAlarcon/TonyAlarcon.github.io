@@ -20,3 +20,4 @@ title: CV of Your Name
 
 
 	</div>
+![](images/Resume_Alarcon_Pedro.pdf)
