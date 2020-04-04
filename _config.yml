@@ -1,3 +1,5 @@
-name: Hank Quinlan, Horrible Cop
+
+#Stores configuation data
+name: Pedro Alarcon's Webpage
 markdown: kramdown
 permalink: /blog/:year/:month/:day/:title
