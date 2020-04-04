@@ -6,9 +6,9 @@ layout: feed
  
  <title>Pedro Alarcon's Webpage</title>
  <link href="https://github.com/TonyAlarcon/TonyAlarcon.github.io/find/master" rel="self"/>
- <link href="http://TonyAlarcon.github.io/blog"/>
+ <link href="http://TonyAlarcon.github.io"/>
  <updated>{{ site.time | date_to_xmlschema }}</updated>
- <id>http://TonyAlarcon.github.io/blog</id>
+ <id>http://TonyAlarcon.github.io</id>
  <author>
    <name>Pedro Alarcon</name>
    <email>palarcon@g.ucla.edu</email>
