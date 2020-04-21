@@ -2,39 +2,29 @@
 layout: default
 title: About Me
 ---
-
-
-
 <!DOCTYPE html> 
 <html> 
   
 <head> 
+
+  <script src="https://kit.fontawesome.com/506a622594.js" crossorigin="anonymous"></script>
     <title>  About </title> 
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
     <style> 
-    * {
-       box-sizing: border-box;
+      * {
+  box-sizing: border-box;
 }
 
-        body { 
-             margin: 20%;
-            font-family: Arial, Helvetica, sans-serif;
-        } 
-        /* Style the side navigation */
+
 .sidenav {
+  padding-top: 50px;
   height: 100%;
-  width: 350px;
-  position: fixed;
-  z-index: 1;
-  top: 150px;
-  left: 170px;
-  overflow-x: hidden;
+  width: 40%;
+  float: left;
 } 
 
 /* Side navigation links */
 .sidenav a {
-  padding: 16px;
   text-decoration: none;
   display: block;
 }
@@ -42,7 +32,8 @@ title: About Me
 .content {
 
   height: 100%;
-  margin-left: 350px;
+  width: 60%;
+  float: left;
   padding-left: 20px;
 
 }
@@ -57,9 +48,12 @@ title: About Me
 <img src="https://github.com/TonyAlarcon/TonyAlarcon.github.io/raw/master/assets/img/Me.jpeg"
 height="300"  >
 <figcaption>
-  <a href="#">Phone</a>
-  <a href="#">Email</a>
-  <a href="#">Github</a>
+<ul class="fa-ul">
+  <li><span class="fa-li"><i class="fab fa-github"></i></span><a href="https://github.com/TonyAlarcon" target="_blank">Github</a></li>
+  <li><span class="fa-li"><i class="fas fa-envelope"></i></span><a href="mailto:palarcon@g.ucla.edu" target="_blank">Email</a></li>
+  <li><span class="fa-li"><i class="fab fa-linkedin"></i></span><a href="https://www.linkedin.com/in/alarcon91/" target="_blank">LinkedIn</a></li>
+</ul>
+  
 </figcaption>
 </figure>
 
@@ -78,4 +72,6 @@ height="300"  >
 
 </body>
 </html>
+
+
 
