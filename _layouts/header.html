@@ -59,11 +59,15 @@ body {
     float: none;
   }
 
-  footer {
-  text-align: center;
-  padding: 3px;
-  background-color: #f1f1f1;
-  color: white;
+.footer {
+   position: fixed;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   background-color:  #f1f1f1;
+   color: white;
+   text-align: center;
+}
 }
 
 
@@ -86,10 +90,11 @@ body {
   {{ content }}
 </div>
 
-<footer>
+<div class="footer">
   <p>Author: Pedro Alarcon</p>
   <p><a href="mailto:palarcon@g.ucla.edu">palarcon@g.ucla.edu</a></p>
-</footer>
+</div>
+
   
 
 
