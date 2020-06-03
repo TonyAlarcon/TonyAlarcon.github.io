@@ -1,3 +1,11 @@
+.grid-container {
+  display: grid;
+  grid-column-gap: 30px;
+  grid-row-gap: 15px;
+  grid-template-columns: 30% 70% ;
+  padding: 30px;
+}
+
 .sidenav {
   padding: 30px;
   width: 35%;
