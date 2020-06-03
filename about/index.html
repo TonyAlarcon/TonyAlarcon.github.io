@@ -4,54 +4,66 @@ title: About
 ---
 <!DOCTYPE html> 
 <html> 
+  
 <head> 
 
   <script src="https://kit.fontawesome.com/506a622594.js" crossorigin="anonymous"></script>
-  
-  <title> About</title> 
-
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-  <link rel="stylesheet" type="text/css" href="about.css">
-
-<style> 
+    <title>  About </title> 
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style> 
       * {
   box-sizing: border-box;
 }
 
-img {
-  max-width: 50%;
-  max-height: 50%;
-  height: auto;
+
+.sidenav {
+  padding: 30px;
+  height: 100%;
+  width: 25%;
+  float: left;
+} 
+
+/* Side navigation links */
+.sidenav a {
+  text-decoration: none;
+  display: block;
+}
+/* Style the content */
+.content {
+
+  height: 100%;
+  width: 75%;
+  float: left;
+  padding-top: 70px;
+  padding: 50px;
+
 }
 </style>
-
 </head>
-
-
 <body>
 
-<div class="grid-container">
-
-  <div class="grid-item">
-
-    <figure>
-        <img src="https://github.com/TonyAlarcon/TonyAlarcon.github.io/raw/master/assets/img/Me.jpeg"
-         class = "responsive">
-          <figcaption>
-            <ul class="fa-ul">
-              <li><span class="fa-li"><i class="fab fa-github"></i></span><a href="https://github.com/TonyAlarcon" target="_blank">Github</a></li>
-              <li><span class="fa-li"><i class="fas fa-envelope"></i></span><a href="mailto:palarcon@g.ucla.edu" target="_blank">Email</a></li>
-              <li><span class="fa-li"><i class="fab fa-linkedin"></i></span><a href="https://www.linkedin.com/in/alarcon91/" target="_blank">LinkedIn</a></li>
-            </ul>
-          </figcaption>
-    </figure>
-  </div>
+    <div class="sidenav">
 
 
-<div class="grid-item">
+<figure>
+<img src="https://github.com/TonyAlarcon/TonyAlarcon.github.io/raw/master/assets/img/Me.jpeg"
+height="300"  >
+<figcaption>
+<ul class="fa-ul">
+  <li><span class="fa-li"><i class="fab fa-github"></i></span><a href="https://github.com/TonyAlarcon" target="_blank">Github</a></li>
+  <li><span class="fa-li"><i class="fas fa-envelope"></i></span><a href="mailto:palarcon@g.ucla.edu" target="_blank">Email</a></li>
+  <li><span class="fa-li"><i class="fab fa-linkedin"></i></span><a href="https://www.linkedin.com/in/alarcon91/" target="_blank">LinkedIn</a></li>
+</ul>
+  
+</figcaption>
+</figure>
+
+</div>
+
+
+<div class="content">
   <h2>About Me</h2>
-  <p> My name is Pedro Alarcon but I go by Tony, which is short for my middle name. 
+  <p>   My name is Pedro Alarcon but I go by Tony, which is short for my middle name. 
     I graduated with an Astrophysics degree from UCLA in 2018, and subsequently enhanced my education through post-bacc 
     programs and community college coursework. I posses a vigorous mathematical foundation with exposure to concepts in 
     Machine Learning, Data Structures, Operating Systems and Electromechanics. As further elaborated in my resume, I’ve 
@@ -59,12 +71,8 @@ img {
     grounding of theory and application within a computer science contex</p>
 </div>
 
-</div>
-
-
 </body>
 </html>
-
 
 
 
