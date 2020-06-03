@@ -3,7 +3,6 @@
   grid-column-gap: 30px;
   grid-row-gap: 15px;
   grid-template-columns: auto auto;
-  grid-template-rows: 400px;
   padding: 30px;
 }
 
