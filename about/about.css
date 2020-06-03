@@ -1,0 +1,29 @@
+.sidenav {
+  padding: 30px;
+  width: 35%;
+  float: left;
+} 
+
+/* Side navigation links */
+.sidenav a {
+  text-decoration: none;
+  display: block;
+}
+/* Style the content */
+.content {
+  width: 65%;
+  float: left;
+  padding-top: 70px;
+  padding-left: 50px;
+}
+
+.responsive {
+  width: 100%;
+  height: auto;
+}
+
+#blank {
+  border: 1px solid white;
+  float: left; 
+  width: 100%;
+}
