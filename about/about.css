@@ -1,9 +1,9 @@
 .grid-container {
   display: grid;
-  max-height: 100px;
+  max-height: 300px;
   grid-column-gap: 30px;
   grid-row-gap: 15px;
-  grid-template-columns: 100px 300px ;
+  grid-template-columns: 300px 600px ;
   padding: 30px;
 }
 
