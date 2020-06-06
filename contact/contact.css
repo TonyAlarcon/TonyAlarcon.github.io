@@ -1,3 +1,22 @@
 * {
   box-sizing: border-box;
 }
+/*  */
+
+
+/* Container box to hold contact form */
+.container { /* rounds container corners */
+	background-color: #f2f2f2; 
+	padding: 20px;
+}
+
+/* Styles the input area, text of input*/
+input[type= text], select textarea{
+	width: 100%; /* text areas occupy full width of contact page*/
+	padding: 12px;
+	box-sizing: border-box; 
+	margin-top: 6px; /* adds space on top for label */
+	margin-bottom: 20px; /*  adds space on bottom for next text-area input */
+
+
+}
