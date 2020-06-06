@@ -1,7 +1,5 @@
-
-
-
-<?php $name = $_POST['Name'];
+<?php 
+$name = $_POST['Name'];
 $email = $_POST['Email'];
 $message = $_POST['Message'];
 $formcontent="From: $Name \n Message: $Message";
