@@ -1,3 +1,7 @@
+* {
+  box-sizing: border-box;
+  }
+
 .grid-container {
   display: grid;
   grid-column-gap: 30px;
