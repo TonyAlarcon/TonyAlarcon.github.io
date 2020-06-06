@@ -1,4 +1,5 @@
-<!-- <?php 
+<!-- 
+<?php 
 $name = $_POST['Name'];
 $email = $_POST['Email'];
 $message = $_POST['Message'];
@@ -8,4 +9,5 @@ $subject = "Contact Form";
 $mailheader = "From: $Email \r\n";
 mail($recipient, $subject, $formcontent, $mailheader) or die("Error!");
 echo "Thank You!";
-?> -->
+?> 
+-->
