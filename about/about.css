@@ -2,15 +2,12 @@
   box-sizing: border-box;
   }
 
-.grid-container {
-  display: grid;
-  grid-column-gap: 30px;
-  grid-row-gap: 15px;
-  grid-template-columns: auto auto;
-  padding: 30px;
+/* container to hold side nav photo and about me content */
+.container {
+  padding: 20px; 
 }
 
-
+/* side nav column to hold personal photo and links to other sites */
 .sidenav {
   padding: 30px;
   width: 35%;
@@ -22,7 +19,8 @@
   text-decoration: none;
   display: block;
 }
-/* Style the content */
+
+/* right column to hold about me description */
 .content {
   width: 65%;
   float: left;
