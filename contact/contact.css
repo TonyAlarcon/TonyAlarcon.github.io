@@ -11,7 +11,7 @@
 }
 
 /* Styles the input area, text of input*/
-input[type= text], select textarea{
+input[type= text], select, textarea{
 	width: 100%; /* text areas occupy full width of contact page*/
 	padding: 12px;
 	box-sizing: border-box; 
