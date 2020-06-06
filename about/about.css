@@ -3,7 +3,8 @@
   }
 
 /* container to hold side nav photo and about me content */
-.container {
+.column {
+  float: left;
   padding: 20px; 
 }
 
@@ -11,7 +12,6 @@
 .sidenav {
   padding: 30px;
   width: 35%;
-  float: left;
 } 
 
 /* Side navigation links */
@@ -23,9 +23,15 @@
 /* right column to hold about me description */
 .content {
   width: 65%;
-  float: left;
   padding-top: 70px;
   padding-left: 50px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
 }
 
 .responsive {
