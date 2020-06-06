@@ -28,6 +28,10 @@ input[type=submit] {
   padding: 12px 20px;
   border: none;
   border-radius: 4px;
-  width: 20px;
   cursor: pointer;
+}
+
+/* submit button will change colors when hovering over it  */
+input[type=submit]:hover {
+  background-color: #45a049;
 }
